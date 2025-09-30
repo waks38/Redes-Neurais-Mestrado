@@ -1,2 +1,5 @@
 /.venv
 /DataSets
+/tests
+/__pycache__
+/.vscode
