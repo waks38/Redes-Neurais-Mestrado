@@ -1,0 +1,434 @@
+[
+  {
+    "dataset": "make_moons",
+    "n": 100,
+    "method": "gabriel_full",
+    "build_time": 0.0051801204681396484,
+    "accuracy": 0.9333333333333333,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_moons",
+    "n": 100,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0006189346313476562,
+    "accuracy": 0.9666666666666667,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_moons",
+    "n": 100,
+    "method": "gabriel_uncertain",
+    "build_time": 0.0012378692626953125,
+    "accuracy": 0.8333333333333334,
+    "selected_samples": 21.0
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 100,
+    "method": "gabriel_full",
+    "build_time": 0.004309654235839844,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 100,
+    "method": "kde_naive_bayes",
+    "build_time": 0.000614166259765625,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 100,
+    "method": "gabriel_uncertain",
+    "build_time": 0.0010478496551513672,
+    "accuracy": 0.9333333333333333,
+    "selected_samples": 21.0
+  },
+  {
+    "dataset": "make_circles",
+    "n": 100,
+    "method": "gabriel_full",
+    "build_time": 0.004559040069580078,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_circles",
+    "n": 100,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0005712509155273438,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_circles",
+    "n": 100,
+    "method": "gabriel_uncertain",
+    "build_time": 0.0012080669403076172,
+    "accuracy": 0.9666666666666667,
+    "selected_samples": 21.0
+  },
+  {
+    "dataset": "make_moons",
+    "n": 500,
+    "method": "gabriel_full",
+    "build_time": 0.11433291435241699,
+    "accuracy": 0.9866666666666667,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_moons",
+    "n": 500,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0006012916564941406,
+    "accuracy": 0.98,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_moons",
+    "n": 500,
+    "method": "gabriel_uncertain",
+    "build_time": 0.008308887481689453,
+    "accuracy": 0.9866666666666667,
+    "selected_samples": 105.0
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 500,
+    "method": "gabriel_full",
+    "build_time": 0.10568070411682129,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 500,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0007746219635009766,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 500,
+    "method": "gabriel_uncertain",
+    "build_time": 0.008648872375488281,
+    "accuracy": 0.9733333333333334,
+    "selected_samples": 105.0
+  },
+  {
+    "dataset": "make_circles",
+    "n": 500,
+    "method": "gabriel_full",
+    "build_time": 0.1082296371459961,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_circles",
+    "n": 500,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0005733966827392578,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_circles",
+    "n": 500,
+    "method": "gabriel_uncertain",
+    "build_time": 0.007676362991333008,
+    "accuracy": 0.9466666666666667,
+    "selected_samples": 105.0
+  },
+  {
+    "dataset": "make_moons",
+    "n": 1000,
+    "method": "gabriel_full",
+    "build_time": 0.3016366958618164,
+    "accuracy": 0.98,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_moons",
+    "n": 1000,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0006356239318847656,
+    "accuracy": 0.9766666666666667,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_moons",
+    "n": 1000,
+    "method": "gabriel_uncertain",
+    "build_time": 0.04033994674682617,
+    "accuracy": 0.9733333333333334,
+    "selected_samples": 210.0
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 1000,
+    "method": "gabriel_full",
+    "build_time": 0.29927802085876465,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 1000,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0011293888092041016,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 1000,
+    "method": "gabriel_uncertain",
+    "build_time": 0.046962738037109375,
+    "accuracy": 1.0,
+    "selected_samples": 210.0
+  },
+  {
+    "dataset": "make_circles",
+    "n": 1000,
+    "method": "gabriel_full",
+    "build_time": 0.2595958709716797,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_circles",
+    "n": 1000,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0006604194641113281,
+    "accuracy": 0.9966666666666667,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_circles",
+    "n": 1000,
+    "method": "gabriel_uncertain",
+    "build_time": 0.040537118911743164,
+    "accuracy": 0.99,
+    "selected_samples": 210.0
+  },
+  {
+    "dataset": "make_moons",
+    "n": 2000,
+    "method": "gabriel_full",
+    "build_time": 1.4426279067993164,
+    "accuracy": 0.985,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_moons",
+    "n": 2000,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0008945465087890625,
+    "accuracy": 0.985,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_moons",
+    "n": 2000,
+    "method": "gabriel_uncertain",
+    "build_time": 0.12087726593017578,
+    "accuracy": 0.985,
+    "selected_samples": 420.0
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 2000,
+    "method": "gabriel_full",
+    "build_time": 1.3444368839263916,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 2000,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0007882118225097656,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 2000,
+    "method": "gabriel_uncertain",
+    "build_time": 0.12947535514831543,
+    "accuracy": 1.0,
+    "selected_samples": 420.0
+  },
+  {
+    "dataset": "make_circles",
+    "n": 2000,
+    "method": "gabriel_full",
+    "build_time": 1.3253898620605469,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_circles",
+    "n": 2000,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0007824897766113281,
+    "accuracy": 0.9966666666666667,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_circles",
+    "n": 2000,
+    "method": "gabriel_uncertain",
+    "build_time": 0.11820459365844727,
+    "accuracy": 0.995,
+    "selected_samples": 420.0
+  },
+  {
+    "dataset": "make_moons",
+    "n": 5000,
+    "method": "gabriel_full",
+    "build_time": 19.56722092628479,
+    "accuracy": 0.9933333333333333,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_moons",
+    "n": 5000,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0013222694396972656,
+    "accuracy": 0.9733333333333334,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_moons",
+    "n": 5000,
+    "method": "gabriel_uncertain",
+    "build_time": 0.6466238498687744,
+    "accuracy": 0.9933333333333333,
+    "selected_samples": 1050.0
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 5000,
+    "method": "gabriel_full",
+    "build_time": 19.71736431121826,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 5000,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0013167858123779297,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 5000,
+    "method": "gabriel_uncertain",
+    "build_time": 0.6443755626678467,
+    "accuracy": 1.0,
+    "selected_samples": 1050.0
+  },
+  {
+    "dataset": "make_circles",
+    "n": 5000,
+    "method": "gabriel_full",
+    "build_time": 20.538477659225464,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_circles",
+    "n": 5000,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0013034343719482422,
+    "accuracy": 0.9993333333333333,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_circles",
+    "n": 5000,
+    "method": "gabriel_uncertain",
+    "build_time": 0.6498582363128662,
+    "accuracy": 1.0,
+    "selected_samples": 1050.0
+  },
+  {
+    "dataset": "make_moons",
+    "n": 10000,
+    "method": "gabriel_full",
+    "build_time": 162.3010745048523,
+    "accuracy": 0.9856666666666667,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_moons",
+    "n": 10000,
+    "method": "kde_naive_bayes",
+    "build_time": 0.002388477325439453,
+    "accuracy": 0.9803333333333333,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_moons",
+    "n": 10000,
+    "method": "gabriel_uncertain",
+    "build_time": 4.259363889694214,
+    "accuracy": 0.9856666666666667,
+    "selected_samples": 2100.0
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 10000,
+    "method": "gabriel_full",
+    "build_time": 160.12922978401184,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 10000,
+    "method": "kde_naive_bayes",
+    "build_time": 0.002254009246826172,
+    "accuracy": 1.0,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 10000,
+    "method": "gabriel_uncertain",
+    "build_time": 4.342039346694946,
+    "accuracy": 1.0,
+    "selected_samples": 2100.0
+  },
+  {
+    "dataset": "make_circles",
+    "n": 10000,
+    "method": "gabriel_full",
+    "build_time": 161.21661400794983,
+    "accuracy": 0.9996666666666667,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_circles",
+    "n": 10000,
+    "method": "kde_naive_bayes",
+    "build_time": 0.0021924972534179688,
+    "accuracy": 0.9966666666666667,
+    "selected_samples": NaN
+  },
+  {
+    "dataset": "make_circles",
+    "n": 10000,
+    "method": "gabriel_uncertain",
+    "build_time": 4.757123708724976,
+    "accuracy": 0.9996666666666667,
+    "selected_samples": 2100.0
+  }
+]

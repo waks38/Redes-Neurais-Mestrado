@@ -1,0 +1,146 @@
+[
+  {
+    "dataset": "make_circles",
+    "n": 100,
+    "support_vertex_count": 38,
+    "covered_support_vertices": 18,
+    "coverage_pct": 47.36842105263158,
+    "selected_samples": 21
+  },
+  {
+    "dataset": "make_circles",
+    "n": 500,
+    "support_vertex_count": 53,
+    "covered_support_vertices": 37,
+    "coverage_pct": 69.81132075471699,
+    "selected_samples": 105
+  },
+  {
+    "dataset": "make_circles",
+    "n": 1000,
+    "support_vertex_count": 60,
+    "covered_support_vertices": 48,
+    "coverage_pct": 80.0,
+    "selected_samples": 210
+  },
+  {
+    "dataset": "make_circles",
+    "n": 2000,
+    "support_vertex_count": 72,
+    "covered_support_vertices": 59,
+    "coverage_pct": 81.94444444444444,
+    "selected_samples": 420
+  },
+  {
+    "dataset": "make_circles",
+    "n": 5000,
+    "support_vertex_count": 84,
+    "covered_support_vertices": 80,
+    "coverage_pct": 95.23809523809524,
+    "selected_samples": 1050
+  },
+  {
+    "dataset": "make_circles",
+    "n": 10000,
+    "support_vertex_count": 98,
+    "covered_support_vertices": 98,
+    "coverage_pct": 100.0,
+    "selected_samples": 2100
+  },
+  {
+    "dataset": "make_moons",
+    "n": 100,
+    "support_vertex_count": 22,
+    "covered_support_vertices": 16,
+    "coverage_pct": 72.72727272727273,
+    "selected_samples": 21
+  },
+  {
+    "dataset": "make_moons",
+    "n": 500,
+    "support_vertex_count": 29,
+    "covered_support_vertices": 27,
+    "coverage_pct": 93.10344827586206,
+    "selected_samples": 105
+  },
+  {
+    "dataset": "make_moons",
+    "n": 1000,
+    "support_vertex_count": 57,
+    "covered_support_vertices": 52,
+    "coverage_pct": 91.2280701754386,
+    "selected_samples": 210
+  },
+  {
+    "dataset": "make_moons",
+    "n": 2000,
+    "support_vertex_count": 62,
+    "covered_support_vertices": 60,
+    "coverage_pct": 96.7741935483871,
+    "selected_samples": 420
+  },
+  {
+    "dataset": "make_moons",
+    "n": 5000,
+    "support_vertex_count": 142,
+    "covered_support_vertices": 141,
+    "coverage_pct": 99.29577464788733,
+    "selected_samples": 1050
+  },
+  {
+    "dataset": "make_moons",
+    "n": 10000,
+    "support_vertex_count": 259,
+    "covered_support_vertices": 251,
+    "coverage_pct": 96.91119691119691,
+    "selected_samples": 2100
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 100,
+    "support_vertex_count": 45,
+    "covered_support_vertices": 18,
+    "coverage_pct": 40.0,
+    "selected_samples": 21
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 500,
+    "support_vertex_count": 118,
+    "covered_support_vertices": 73,
+    "coverage_pct": 61.86440677966102,
+    "selected_samples": 105
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 1000,
+    "support_vertex_count": 139,
+    "covered_support_vertices": 90,
+    "coverage_pct": 64.74820143884892,
+    "selected_samples": 210
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 2000,
+    "support_vertex_count": 142,
+    "covered_support_vertices": 106,
+    "coverage_pct": 74.64788732394366,
+    "selected_samples": 420
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 5000,
+    "support_vertex_count": 162,
+    "covered_support_vertices": 143,
+    "coverage_pct": 88.27160493827161,
+    "selected_samples": 1050
+  },
+  {
+    "dataset": "make_spirals",
+    "n": 10000,
+    "support_vertex_count": 162,
+    "covered_support_vertices": 149,
+    "coverage_pct": 91.9753086419753,
+    "selected_samples": 2100
+  }
+]
