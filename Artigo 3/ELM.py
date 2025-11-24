@@ -19,7 +19,7 @@ class ELM:
         x = np.clip(x, -500, 500)
         return 1.0 / (1.0 + np.exp(-x))
 
-    def fit(self, X, y, lamb=0.00):
+    def fit(self, X, y, lamb=0.0):
         n_samples, n_features = X.shape
         rng = np.random.RandomState(self.random_state)
 
@@ -51,6 +51,53 @@ class ELM:
         
         return self
 
+    def get_geometric_distance(self, X):
+        """
+        Calcula a distância geométrica de 1ª ordem (aprox. Euclidiana) à fronteira.
+        Fórmula: d(x) = |f(x)| / ||grad_x f(x)||
+        """
+        n_samples = X.shape[0]
+        epsilon = 1e-8 # Evita divisão por zero em regiões planas
+
+        # 1. Forward Pass (Necessário para obter H e o Score)
+        # Recalculamos aqui para garantir que H corresponda ao X atual
+        projection = X @ self.weights_input + self.bias_hidden
+        H = self._sigmoid(projection)
+        
+        # Score f(x) (incluindo o bias de saída, que é o intercepto da reta final)
+        # Nota: O bias de saída não afeta o gradiente, apenas o valor da função.
+        H_aug = np.column_stack([np.ones(n_samples), H])
+        f_x = H_aug @ self.weights_output # Shape (N, 1) ou (N,)
+        
+        # 2. Cálculo do Gradiente (Chain Rule)
+        # Precisamos de df/dX.
+        # f(x) = beta_0 + sum(beta_i * sigmoid(w_i * x + b_i))
+        
+        # Separamos o beta_0 (bias de saída) pois a derivada dele é 0
+        # self.weights_output[0] é o bias. self.weights_output[1:] são os pesos dos neurônios.
+        beta_neurons = self.weights_output[1:, :] # Shape (n_hidden, 1)
+
+        # Derivada da função de ativação: dH/dZ = h * (1 - h) para sigmoide
+        d_H = H * (1 - H) # Shape (N, n_hidden)
+        
+        # Ponderamos a derivada da ativação pelo peso de saída (beta)
+        # Broadcasting: (N, n_hidden) * (1, n_hidden).T
+        grad_hidden = d_H * beta_neurons.T 
+
+        # Projetamos de volta para o espaço de entrada (X) multiplicando pelos pesos de entrada (W)
+        # grad_x = grad_hidden @ W.T
+        grad_x = grad_hidden @ self.weights_input.T # Shape (N, n_features)
+
+        # 3. Norma do Gradiente (Magnitude da inclinação)
+        # Calculamos a norma Euclidiana (L2) para cada amostra
+        grad_norm = np.linalg.norm(grad_x, axis=1)
+        
+        # 4. Cálculo Final da Distância
+        # Usamos ravel() para garantir que tudo seja vetor 1D
+        dist = np.abs(f_x.ravel()) / (grad_norm + epsilon)
+        
+        return dist
+    
     def predict(self, X):
         n_samples = X.shape[0]
 
@@ -82,6 +129,7 @@ class ELM:
 
 
         # Plota os contornos
+
         plt.contourf(xx, yy, Z, levels=[-1,0,1], cmap=ListedColormap(['#E0E0E0',"#7A7A7A","#363636"]), alpha=0.6)
         plt.colorbar()
         plt.scatter(X[:, 0], X[:, 1], c=y, edgecolors='k', cmap=ListedColormap(['#E0E0E0',"#363636"]))
